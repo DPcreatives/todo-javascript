@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:lightsalmon;
+}
+
+
+.heading {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-family:monospace;   
+    /* background-color:black; */
+    height:25vh;
+}
+
+.heading h2{
+    font-weight:600;
+    font-size:1.32rem;
+}
+.todos{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+.todos .form input[type=text]{
+outline: none;
+width:200px;
+height:30px;
+text-size-adjust: inherit;
+font-size: 22px;
+font-family: monospace;
+font-weight:600;
+}
+.todos .form input[type=text]:focus{
+    outline: blue;
+    display: inline-block;
+    }
+    
+
+input[type=button] {
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px 4px;
+    cursor: pointer;  
+}
+.todo-area{
+    width:40%;
+    background-color:darkorchid;
+    color: white;
+    font-family: monospace;
+}
+.todo-area #todo{
+display:flex;
+align-items:center;
+justify-content:space-between;
+align-items:center;
+
+}
+.todo-area #todo #list{
+    margin-left: 10px;
+    
+}
